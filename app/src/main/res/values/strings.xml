@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TP2</string>
+    <string name="exercice1">Exercice1</string>
+    <string name="exercice2">Exercice2</string>
+    <string name="exercice3">Exercice3</string>
+    <string name="exercice4">Exercice4</string>
+    <string name="exercice5">Exercice5</string>
+    <string name="exercice6">Exercice6</string>
+    <string name="exercice7">Exercice7</string>
+    <string name="localisation">Localisation actuelle</string>
+</resources>
