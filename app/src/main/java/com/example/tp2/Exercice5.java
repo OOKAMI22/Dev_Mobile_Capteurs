@@ -1,7 +1,6 @@
 package com.example.tp2;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -11,7 +10,6 @@ import android.hardware.camera2.CameraManager;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import androidx.constraintlayout.widget.ConstraintLayout;
 
 public class Exercice5 extends AppCompatActivity implements SensorEventListener {
     SensorManager mSensorManager;
@@ -54,12 +52,12 @@ public class Exercice5 extends AppCompatActivity implements SensorEventListener 
             try {
                 if (shake) {
                     camManager.setTorchMode("0", false);
-                    flash.setImageResource(R.drawable.flash_on);
+                    flash.setImageResource(R.drawable.flash_off);
                     shake = false;
 
                 } else {
                     camManager.setTorchMode("0", true);
-                    flash.setImageResource(R.drawable.flash_off);
+                    flash.setImageResource(R.drawable.flash_on);
                     shake = true;
                 }
             } catch (CameraAccessException e) {

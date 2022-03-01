@@ -11,13 +11,15 @@
                android:layout_height="233dp"
                android:layout_gravity="center"
                app:srcCompat="@drawable/localisation" tools:ignore="MissingConstraints"/>
+
     <TextView
-            android:id="@+id/position"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textStyle="bold"
-            android:text="Postion actuelle : "/>
+        android:id="@+id/position"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Postion actuelle : "
+        android:textStyle="bold" />
+
     <Button
             android:id="@+id/capteurbtn1"
             android:layout_width="match_parent"
